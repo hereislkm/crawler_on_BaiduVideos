@@ -25,7 +25,7 @@ try:
             print(sql)
 
     def linking(title,v_url,source,img):
-        with open("all_entities3.txt", "r", encoding="utf-8-sig") as fr:
+        with open("all_entities.txt", "r", encoding="utf-8-sig") as fr:
             entities = fr.readlines()
             for keyword in entities:
                 if keyword.strip() in title:
